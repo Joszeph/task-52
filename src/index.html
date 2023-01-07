@@ -12,7 +12,38 @@
   <body>
     <div class="main">
       <div class="emoji mb-6">💣🤯💥</div>
-      <button class="button">Boom?</button>
+      <button class="button">Boom?</button>  
     </div>
+    <script>
+      const main = document.querySelector(".main")
+
+const element1 = document.createElement("article")
+element1.classList.add("message")
+element1.innerText="Sample text"
+
+const element2 = document.createElement("article")
+element2.classList.add("message")
+element2.innerText="Sample text"
+
+const element3 = document.createElement("article")
+element3.classList.add("message")
+element3.innerText="Sample text"
+
+const element4 = document.createElement("article")
+element4.classList.add("message")
+element4.innerText="Sample text"
+
+const element5 = document.createElement("article")
+element5.classList.add("message")
+element5.innerText="Sample text"
+
+document.body.addEventListener("click", ()=>{
+  main.appendChild(element1)
+  main.appendChild(element2)
+  main.appendChild(element3)
+  main.appendChild(element4)
+  main.appendChild(element5)
+})
+    </script>
   </body>
 </html>
