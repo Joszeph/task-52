@@ -15,7 +15,7 @@
       <button class="button">Boom?</button>  
     </div>
     <script>
-      const main = document.querySelector(".main")
+const mainBody = document.querySelector("body")
 
 const element1 = document.createElement("article")
 element1.classList.add("message")
@@ -38,11 +38,11 @@ element5.classList.add("message")
 element5.innerText="Sample text"
 
 document.body.addEventListener("click", ()=>{
-  main.appendChild(element1)
-  main.appendChild(element2)
-  main.appendChild(element3)
-  main.appendChild(element4)
-  main.appendChild(element5)
+  mainBody.appendChild(element1)
+  mainBody.appendChild(element2)
+  mainBody.appendChild(element3)
+  mainBody.appendChild(element4)
+  mainBody.appendChild(element5)
 })
     </script>
   </body>
